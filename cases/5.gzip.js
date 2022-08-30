@@ -1,3 +1,4 @@
+const zlib = require('node:zlib')
 const gzip = zlib.createGzip()
 const fs = require('fs')
 const inp = fs.createReadStream('message.txt')
